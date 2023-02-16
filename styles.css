@@ -12,6 +12,13 @@ body {
   width: 100%;
 }
 
+.project-btn:hover,
+.multi-btn:hover {
+  background: #FFF5E1;
+  border: 1px solid #F55800;
+  color: #F55800;
+}
+
 .section-navbar {
   background-color: #3c3a39;
 }
@@ -112,8 +119,7 @@ h2 {
 }
 
 #work {
-  display: flex;
-  flex-direction: column;
+  display: grid;
   padding: 30% 6% 25% 6%;
 }
 
