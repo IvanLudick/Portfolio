@@ -184,3 +184,70 @@ h4 {
   font-weight: 700;
   font-size: 17px;
 }
+
+.art-printing-data {
+  display: flex;
+  flex-direction: column;
+  background-image: url("images/cards img.png");
+  Width: 100%;
+  Height: 386px;
+  background-repeat: no-repeat;
+  color: #fff;
+  padding: 3%;
+  margin-top: 10%;
+}
+
+h5 {
+  font-family: 'Crete Round', sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 44px;
+  margin: 23% 0 0 0;
+}
+
+.art-printing-data p {
+  font-family: 'Inter', sans-serif;
+  line-height: 24px;
+}
+
+.art-printing-data ul {
+  display: flex;
+  padding: 0px;
+  gap: 12px;
+}
+
+.art-printing-data li {
+  list-style: none;
+  background: rgba(255, 255, 255, 0.24);
+  padding: 10px 12px;
+}
+
+.art-printing-data button {
+  width: 99.3%;
+  height: 48px;
+  margin-left: -3%;
+  border: none;
+  background: #FF6B00;
+  letter-spacing: 0.03em;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 17px;
+  color: #FFFFFF;
+}
+
+#about-me {
+  display: flex;
+  flex-direction: column;
+  background: #1C1A19;
+  padding: 3%;
+}
+
+.about-me-txt {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-me-txt h6 {
+  margin: 0;
+  color: #FF6B00;
+}
