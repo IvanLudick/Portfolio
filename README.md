@@ -68,8 +68,8 @@ Website that will be used as my portifolio.
 
 > Describe between 1-3 key features of the application.
 
-- **[The discription]**
-- **[The buttons added]**
+- **[Work Section]**
+- **[About Me Section]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

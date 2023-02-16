@@ -12,6 +12,13 @@ body {
   width: 100%;
 }
 
+.project-btn:hover,
+.multi-btn:hover {
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
+}
+
 .section-navbar {
   background-color: #3c3a39;
 }
@@ -33,10 +40,7 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
-  flex-direction: row;
-  align-items: center;
   padding: 10px 12px;
-  width: 100px;
   font-family: 'Roboto', sans-serif;
   color: #fff;
 }
@@ -65,7 +69,7 @@ a {
   text-decoration: none;
 }
 
-.headline {
+#headline {
   display: flex;
   flex-direction: column;
   background-color: #1c1a19;
@@ -112,4 +116,229 @@ h2 {
   background-repeat: no-repeat;
   left: 65%;
   top: 46%;
+}
+
+#work {
+  display: grid;
+  padding: 30% 6% 25% 6%;
+}
+
+h3,
+h4 {
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 40px;
+  line-height: 52px;
+  color: #1c1a19;
+  margin-top: 30px;
+}
+
+.seperation {
+  height: 0;
+  width: 100%;
+  border: 1px solid #212121;
+  margin-bottom: 80px;
+}
+
+h4 {
+  font-size: 32px;
+  line-height: 44px;
+  color: #091e42;
+  margin: 10px 0 0 0;
+}
+
+.multi-post-descript {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.multi-post-descript p {
+  color: #091e42;
+  font-family: 'Inter', sans-serif;
+  line-height: 24px;
+  margin: 0;
+}
+
+.multi-post-descript ul li {
+  list-style: none;
+  font-family: 'Inter', sans-serif;
+  border: 1px solid #8993a4;
+  padding: 10px 12px;
+  color: #091e42;
+}
+
+.multi-post-descript ul {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 0;
+}
+
+.multi-post-descript button {
+  height: 48px;
+  width: 124px;
+  background: #ff6b00;
+  border: none;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.art-printing-data {
+  display: flex;
+  flex-direction: column;
+  background-image: url("images/cards img.png");
+  width: 100%;
+  height: 386px;
+  background-repeat: no-repeat;
+  color: #fff;
+  padding: 3%;
+  margin-top: 10%;
+}
+
+h5 {
+  font-family: 'Crete Round', sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 44px;
+  margin: 23% 0 0 0;
+}
+
+.art-printing-data p {
+  font-family: 'Inter', sans-serif;
+  line-height: 24px;
+}
+
+.art-printing-data ul li {
+  list-style: none;
+  background: rgba(255, 255, 255, 0.24);
+  padding: 10px 12px;
+}
+
+.art-printing-data ul {
+  display: flex;
+  padding: 0;
+  gap: 12px;
+}
+
+.art-printing-data button {
+  width: 99.3%;
+  height: 48px;
+  margin-left: -3%;
+  border: none;
+  background: #ff6b00;
+  letter-spacing: 0.03em;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  color: #fff;
+}
+
+#about-me {
+  display: flex;
+  flex-direction: column;
+  background: #1c1a19;
+  padding: 6%;
+}
+
+.about-bg {
+  position: absolute;
+  background-image: url('images/aboutme mobile.png');
+  background-repeat: no-repeat;
+  height: 258.17px;
+  width: 42.5%;
+  left: 57.5%;
+  margin-top: 90%;
+}
+
+.about-me-txt {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-me-txt h6 {
+  font-family: 'Crete Round', sans-serif;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 88px;
+  letter-spacing: 0.37px;
+  margin: 0;
+  color: #ff6b00;
+  padding-top: 30%;
+}
+
+.about-me-txt p {
+  font-family: 'Inter', sans-serif;
+  line-height: 24px;
+  color: #f4f5f7;
+}
+
+.about-me-txt button {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  background: #ff6b00;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  width: 161px;
+}
+
+#about-me span {
+  border: 1px solid #fff;
+  width: 100%;
+  margin-top: 14rem;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 120px 24px;
+  gap: 24px;
+  color: #fff;
+}
+
+.skill ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  gap: 24px;
+}
+
+#li-heading2,
+#li-heading3,
+#li-heading {
+  font-family: 'InaiMathi', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+}
+
+#li-heading {
+  list-style: url('images/Rectangle 55.png');
+}
+
+#li-heading2 {
+  list-style: url('images/Rectangle 56.png');
+}
+
+#li-heading3 {
+  list-style: url('images/Rectangle 57.png');
+}
+
+.skill-item {
+  font-family: 'Inter', sans-serif;
+  font-size: 22px;
+  line-height: 43px;
+  text-align: center;
+  list-style: none;
 }
